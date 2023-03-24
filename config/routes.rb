@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :movies, only: [:index]
+  resources :toys, only: [:index, :create, :update, :destroy]
 end
